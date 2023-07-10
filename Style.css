@@ -52,3 +52,70 @@ body {
 .hero-section button {
     margin-top: 0px;
 }
+/*features section*/
+
+.feature-section{
+    text-align: center;
+}
+.feature-content h3 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.feature-content p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.feature-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.img-1 {
+    max-width: 300px;
+    padding: 110px 76px 0px 78px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15)
+}
+
+.img-2 {
+    max-width: 300px;
+    padding: 117px 47px 106px 47px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);    
+}
+
+.img-3 {
+    width: 300px;
+    padding: 72px 75px 0px 75px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);   
+}
+.feature-link {
+    justify-content: center;
+    display: flex;
+    gap:250px ;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 32px;
+
+}
+
+.support-section {
+    margin: 128px 240px;
+    max-width: 1440px;
+    max-height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    padding: 86px 0;
+
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}

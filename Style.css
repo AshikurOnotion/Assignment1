@@ -40,3 +40,15 @@ body {
 .hero-img {
     max-width: 635px;
 }
+.hero-title{
+    margin-bottom: 30px;
+}
+
+.hero-description{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.hero-section button {
+    margin-top: 0px;
+}

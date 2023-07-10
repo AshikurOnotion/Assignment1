@@ -1,0 +1,42 @@
+
+
+/*sharable content*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: 0;
+}
+
+/*hero section */
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);
+    max-height:850px ;
+}
+.hero-section {
+    padding: 0px 240px;
+}
+.hero-content h1 {
+    font-size: 80px;
+    font-weight: 800;
+    color: #272727;
+}
+.hero-content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+.hero-img {
+    max-width: 635px;
+}

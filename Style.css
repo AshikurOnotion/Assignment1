@@ -73,7 +73,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    gap: 55px;
 }
 .img-1 {
     max-width: 300px;
@@ -98,13 +98,13 @@ body {
 .feature-link {
     justify-content: center;
     display: flex;
-    gap:250px ;
+    gap:270px ;
     font-size: 24px;
     font-weight: 700;
     margin-top: 32px;
 
 }
-
+/*support section*/
 .support-section {
     margin: 128px 240px;
     max-width: 1440px;
@@ -115,7 +115,84 @@ body {
     text-align: center;
     gap: 100px;
     padding: 86px 0;
-
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+}
+
+/*hot deal section */
+.hot-deal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0;
+    gap: 215px;
+    background: rgba(229, 84, 115, 0.05)
+;     
+}
+
+.hotdeal-content h3 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hotdeal-content p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.hotdeal-content span {
+    color: #E55473;
+}
+.hotdeal-content img {
+    width: 318px;
+    height: 420px;
+}
+
+.hotdeal-title {
+    margin-bottom:0px;
+}
+
+.hotdeal-text {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.hot-deal button {
+    margin-top: 0px;
+}
+
+/*social section*/
+.social-section{
+    align-items: center;
+    text-align: center;
+}
+.social-section h3 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.social-section p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    color: rgba(39, 39, 39, 0.60);
+    
+} 
+.social-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin: 0px 240px;
+}
+
+.massage-section{
+    align-items: center;
+    text-align: center;
+    background-image: url(img/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    margin: 0px 240px ;
+
 }

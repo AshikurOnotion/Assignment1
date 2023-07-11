@@ -273,3 +273,30 @@ body {
     font-weight: 400;   
     color: rgba(255, 255, 255, 0.40);
 }
+
+.client-massage {
+    text-align: center;
+    background-color: ;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.client-massage h3 {
+    font-size: 48px;
+    padding-top: 120px;
+}
+
+.client-massage h5 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.client-desig {
+    font-size: 16px;
+    color: rgba(116, 116, 116, 0.904);
+    
+}
+.client-say {
+    font-size: 20px;
+    padding-bottom: 120px;
+}
+
